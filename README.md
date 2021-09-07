@@ -9,4 +9,4 @@ Exit by passing exit value : exit
 > pass 'p' for switch to pull or 'r' to reverse the mode
 > pass 'exit' to terminate the program
 
-Info statements are printed on console on each operation to identify the mode and speed level
+Info statements are printed on console on each operation to identify the mode and speed level.
