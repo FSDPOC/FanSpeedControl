@@ -24,7 +24,11 @@ public class FanControlSwitch implements Fan {
     }
 
     private void printStatement() {
-        System.out.println("Fan speed at " + speedControl);
+        if(speedControl > 0) {
+            System.out.println("Fan speed at " + speedControl);
+        }else{
+            System.out.println("Fan switch in Off mode and speed "+speedControl);
+        }
         if (direction) {
             System.out.println("Fan direction mode " + "forward");
         } else {

@@ -43,7 +43,7 @@ public class OperateFan {
                 fan.reverseDirection();
                 break;
             default:
-                System.out.println("Fan switch in Off mode");
+                System.out.println("Invalid Fan switch input");
                 break;
         }
     }
