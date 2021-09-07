@@ -3,11 +3,11 @@ Once class ran on IDE will result in description statements like below:
 
 Console printing:::
 
-Pull cord by passing pull value : p
+Pull cord by passing pull input : p
 
-Reverse by passing reverse value : r
+Reverse by passing reverse input : r
 
-Exit by passing exit value : exit
+Exit by passing exit input : exit
 
 \> pass 'p' for switch to pull or 'r' to reverse the mode
 
