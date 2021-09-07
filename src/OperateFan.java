@@ -1,7 +1,4 @@
-
-
 import java.util.Scanner;
-import java.util.logging.Logger;
 
 public class OperateFan {
     private static String PULL = "p";
