@@ -6,6 +6,7 @@ Console printing:::
 Pull cord by passing pull value : p
 
 Reverse by passing reverse value : r
+
 Exit by passing exit value : exit
 
 > pass 'p' for switch to pull or 'r' to reverse the mode
