@@ -1,12 +1,14 @@
+
+
 import java.util.Scanner;
+import java.util.logging.Logger;
 
 public class OperateFan {
     private static String PULL = "p";
     private static String REVERSE = "r";
-    private static String EXIT = "exit";
+    private static String EXITCODE = "exit";
 
     public static void main(String[] args) {
-
 
         System.out.println("Pull cord by passing pull value : p");
         System.out.println("Reverse by passing reverse value : r");
@@ -15,7 +17,7 @@ public class OperateFan {
         Scanner input = new Scanner(System.in);
         while (input != null) {
             String inputStr = input.nextLine();
-            if (inputStr.equals(EXIT)) {
+            if (inputStr.equals(EXITCODE)) {
                 break;
             }
             System.out.println("You entered command string:  " + inputStr);
