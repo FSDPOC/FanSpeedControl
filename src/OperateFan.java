@@ -7,9 +7,9 @@ public class OperateFan {
 
     public static void main(String[] args) {
 
-        System.out.println("Pull cord by passing pull value : p");
-        System.out.println("Reverse by passing reverse value : r");
-        System.out.println("Exit by passing exit value : exit");
+        System.out.println("Pull cord by passing pull input : p");
+        System.out.println("Reverse by passing reverse input : r");
+        System.out.println("Exit by passing exit input : exit");
 
         Scanner input = new Scanner(System.in);
         while (input != null) {
